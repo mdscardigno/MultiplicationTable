@@ -9,6 +9,7 @@ namespace MultiplicationTable
             Console.WriteLine("Multiplication Table");
             Console.WriteLine("Please enter the number to use to create the table: ");
             int table = int.Parse(Console.ReadLine());
+            Console.WriteLine("You entered: " + table);
 
             for (int multiplicador = 0; multiplicador < 10; multiplicador++)
             {
