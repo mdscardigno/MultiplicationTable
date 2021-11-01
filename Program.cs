@@ -11,9 +11,9 @@ namespace MultiplicationTable
             int table = int.Parse(Console.ReadLine());
             Console.WriteLine("You entered: " + table);
 
-            for (int multiplicador = 0; multiplicador < 10; multiplicador++)
+            for (int multiplicador = 0; multiplicador < 100; multiplicador++)
             {
-                if (multiplicador == 5)
+                if (multiplicador == 50)
                 {
                     // break; //it exists the loop when equal to 5
                     continue; // when multiplicador is equal to 5, the line will not be executed
